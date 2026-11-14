@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rickmod:item/meeseeks_box"
+  },
+  "elements": [
+    {
+      "name": "main_box",
+      "from": [4, 0, 4],
+      "to": [12, 8, 12],
+      "faces": {
+        "north": {"uv": [1, 1, 15, 15], "texture": "#layer0"},
+        "east": {"uv": [1, 1, 15, 15], "texture": "#layer0"},
+        "south": {"uv": [1, 1, 15, 15], "texture": "#layer0"},
+        "west": {"uv": [1, 1, 15, 15], "texture": "#layer0"},
+        "up": {"uv": [1, 1, 15, 15], "texture": "#layer0"},
+        "down": {"uv": [1, 1, 15, 15], "texture": "#layer0"}
+      }
+    },
+    {
+      "name": "red_button",
+      "from": [6.5, 8, 6.5],
+      "to": [9.5, 9.5, 9.5],
+      "faces": {
+        "north": {"uv": [6, 2, 10, 5], "texture": "#layer0"},
+        "east": {"uv": [6, 2, 10, 5], "texture": "#layer0"},
+        "south": {"uv": [6, 2, 10, 5], "texture": "#layer0"},
+        "west": {"uv": [6, 2, 10, 5], "texture": "#layer0"},
+        "up": {"uv": [6, 2, 10, 5], "texture": "#layer0"}
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {"translation": [0, 3, 1], "scale": [0.7, 0.7, 0.7]},
+    "firstperson_righthand": {"rotation": [0, -45, 0], "translation": [0, 4, 0], "scale": [0.75, 0.75, 0.75]},
+    "gui": {"rotation": [30, 225, 0], "translation": [0, 2, 0], "scale": [1.1, 1.1, 1.1]},
+    "ground": {"translation": [0, 3, 0], "scale": [0.65, 0.65, 0.65]}
+  }
+}
