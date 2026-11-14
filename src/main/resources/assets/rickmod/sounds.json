@@ -1,0 +1,50 @@
+{
+  "portal_gun_shoot": {
+    "subtitle": "subtitles.rickmod.portal_gun_shoot",
+    "sounds": [
+      { "name": "rickmod:portal_gun_shoot", "stream": false }
+    ]
+  },
+  "portal_open": {
+    "subtitle": "subtitles.rickmod.portal_open",
+    "sounds": [
+      { "name": "rickmod:portal_open", "stream": false }
+    ]
+  },
+  "portal_travel": {
+    "subtitle": "subtitles.rickmod.portal_travel",
+    "sounds": [
+      { "name": "rickmod:portal_travel", "stream": false }
+    ]
+  },
+  "meeseeks_box_press": {
+    "subtitle": "subtitles.rickmod.meeseeks_box_press",
+    "sounds": [
+      { "name": "rickmod:meeseeks_box_press", "stream": false }
+    ]
+  },
+  "meeseeks_poof": {
+    "subtitle": "subtitles.rickmod.meeseeks_poof",
+    "sounds": [
+      { "name": "rickmod:meeseeks_poof", "stream": false }
+    ]
+  },
+  "blaster_fire": {
+    "subtitle": "subtitles.rickmod.blaster_fire",
+    "sounds": [
+      { "name": "rickmod:blaster_fire", "stream": false }
+    ]
+  },
+  "death_crystal_pulse": {
+    "subtitle": "subtitles.rickmod.death_crystal_pulse",
+    "sounds": [
+      { "name": "rickmod:death_crystal_pulse", "stream": false }
+    ]
+  },
+  "phoenix_revive": {
+    "subtitle": "subtitles.rickmod.phoenix_revive",
+    "sounds": [
+      { "name": "rickmod:phoenix_revive", "stream": false }
+    ]
+  }
+}
