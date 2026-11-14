@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ECE",
+    "LPL",
+    "ECE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "C": {
+      "item": "rickmod:portal_crystal_block"
+    },
+    "L": {
+      "item": "rickmod:rick_spring_legs"
+    },
+    "P": {
+      "item": "rickmod:portal_core"
+    }
+  },
+  "result": {
+    "item": "rickmod:prime_phase_accelerator"
+  }
+}

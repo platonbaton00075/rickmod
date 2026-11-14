@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "SMP",
+    " B "
+  ],
+  "key": {
+    "E": { "item": "minecraft:emerald" },
+    "S": { "item": "minecraft:slime_ball" },
+    "M": { "item": "minecraft:sea_pickle" },
+    "P": { "item": "minecraft:fermented_spider_eye" },
+    "B": { "item": "minecraft:glass_bottle" }
+  },
+  "result": { "item": "rickmod:pickle_serum" }
+}

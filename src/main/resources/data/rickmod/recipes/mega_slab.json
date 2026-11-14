@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["###"],
+  "key": {"#": {"item": "rickmod:mega_planks"}},
+  "result": {"item": "rickmod:mega_slab", "count": 6}
+}

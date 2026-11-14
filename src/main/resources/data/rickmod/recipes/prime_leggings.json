@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EOE",
+    "PAP",
+    "EOE"
+  ],
+  "key": {
+    "E": {"item": "minecraft:emerald_block"},
+    "O": {"item": "minecraft:crying_obsidian"},
+    "P": {"item": "rickmod:portal_core"},
+    "A": {"item": "rickmod:c137_leggings"}
+  },
+  "result": {
+    "item": "rickmod:prime_leggings"
+  }
+}

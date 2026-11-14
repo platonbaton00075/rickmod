@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["W W", "CGC", "CCC"],
+  "key": {
+    "C": {"item": "rickmod:citadel_steel_block"},
+    "W": {"item": "minecraft:white_wool"},
+    "G": {"item": "rickmod:portal_crystal_block"}
+  },
+  "result": {
+    "item": "rickmod:c137_chestplate"
+  }
+}

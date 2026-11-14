@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BRB",
+    "SLI",
+    "B B"
+  ],
+  "key": {
+    "B": { "item": "minecraft:bone" },
+    "R": { "item": "minecraft:redstone_block" },
+    "S": { "item": "minecraft:string" },
+    "L": { "item": "minecraft:leather_chestplate" },
+    "I": { "item": "minecraft:iron_ingot" }
+  },
+  "result": { "item": "rickmod:rat_exoskeleton" }
+}

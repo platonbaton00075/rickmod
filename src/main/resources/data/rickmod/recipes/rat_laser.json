@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "IBI",
+    " K "
+  ],
+  "key": {
+    "R": { "item": "minecraft:redstone_block" },
+    "I": { "item": "minecraft:iron_ingot" },
+    "B": { "item": "minecraft:blaze_rod" },
+    "K": { "item": "minecraft:stone_button" }
+  },
+  "result": { "item": "rickmod:rat_laser" }
+}

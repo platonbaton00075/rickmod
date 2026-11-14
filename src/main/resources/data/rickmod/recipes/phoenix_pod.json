@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SGS",
+    "CPC",
+    "SFS"
+  ],
+  "key": {
+    "S": { "item": "rickmod:citadel_steel_block" },
+    "G": { "item": "minecraft:golden_apple" },
+    "C": { "item": "rickmod:portal_crystal_block" },
+    "P": { "item": "rickmod:portal_core" },
+    "F": { "item": "rickmod:portal_fluid_flask" }
+  },
+  "result": {
+    "item": "rickmod:phoenix_pod"
+  }
+}

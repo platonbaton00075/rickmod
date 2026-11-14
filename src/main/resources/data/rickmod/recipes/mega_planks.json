@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [{"item": "rickmod:mega_log"}],
+  "result": {"item": "rickmod:mega_planks", "count": 4}
+}

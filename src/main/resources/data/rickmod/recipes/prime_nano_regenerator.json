@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CPC",
+    "GLG",
+    "CPC"
+  ],
+  "key": {
+    "C": {
+      "item": "rickmod:portal_crystal_block"
+    },
+    "P": {
+      "item": "rickmod:portal_core"
+    },
+    "G": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "L": {
+      "item": "rickmod:rick_synthetic_liver"
+    }
+  },
+  "result": {
+    "item": "rickmod:prime_nano_regenerator"
+  }
+}

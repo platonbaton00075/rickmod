@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " CC",
+    " DC",
+    "IP "
+  ],
+  "key": {
+    "C": {
+      "item": "rickmod:portal_crystal_block"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "I": {
+      "item": "rickmod:citadel_steel_block"
+    },
+    "P": {
+      "item": "rickmod:portal_core"
+    }
+  },
+  "result": {
+    "item": "rickmod:prime_quantum_blades"
+  }
+}

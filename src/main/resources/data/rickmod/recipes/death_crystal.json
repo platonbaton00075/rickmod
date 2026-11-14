@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "AEA",
+    " G "
+  ],
+  "key": {
+    "R": { "item": "minecraft:redstone_block" },
+    "A": { "item": "minecraft:amethyst_shard" },
+    "E": { "item": "minecraft:ender_eye" },
+    "G": { "item": "minecraft:ghast_tear" }
+  },
+  "result": {
+    "item": "rickmod:death_crystal"
+  }
+}

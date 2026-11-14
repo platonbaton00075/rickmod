@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "TGA",
+    " B "
+  ],
+  "key": {
+    "P": { "item": "minecraft:fermented_spider_eye" },
+    "T": { "item": "minecraft:ghast_tear" },
+    "G": { "item": "minecraft:golden_apple" },
+    "A": { "item": "minecraft:glowstone_dust" },
+    "B": { "item": "minecraft:glass_bottle" }
+  },
+  "result": { "item": "rickmod:anti_pickle_serum" }
+}

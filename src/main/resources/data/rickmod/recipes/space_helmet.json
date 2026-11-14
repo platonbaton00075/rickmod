@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SGS",
+    "GCG",
+    "   "
+  ],
+  "key": {
+    "S": { "item": "rickmod:citadel_steel_block" },
+    "G": { "item": "minecraft:tinted_glass" },
+    "C": { "item": "rickmod:portal_crystal_block" }
+  },
+  "result": { "item": "rickmod:space_helmet" }
+}

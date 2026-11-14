@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IFI",
+    "ICI",
+    " B "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "F": {
+      "item": "rickmod:portal_fluid_flask"
+    },
+    "C": {
+      "item": "rickmod:portal_core"
+    },
+    "B": {
+      "item": "minecraft:stone_button"
+    }
+  },
+  "result": {
+    "item": "rickmod:ricks_portal_gun"
+  }
+}

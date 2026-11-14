@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GCG",
+    "I I"
+  ],
+  "key": {
+    "G": { "item": "minecraft:gold_ingot" },
+    "C": { "item": "rickmod:death_crystal" },
+    "I": { "item": "minecraft:iron_ingot" }
+  },
+  "result": {
+    "item": "rickmod:death_crystal_headband"
+  }
+}

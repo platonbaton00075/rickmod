@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "SCS",
+    "RSR"
+  ],
+  "key": {
+    "S": { "item": "rickmod:citadel_steel_block" },
+    "C": { "item": "rickmod:portal_core" },
+    "R": { "item": "minecraft:redstone_block" }
+  },
+  "result": { "item": "rickmod:space_chestplate" }
+}

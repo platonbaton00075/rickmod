@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["S#S", "S#S"],
+  "key": {"#": {"item": "rickmod:mega_planks"}, "S": {"item": "minecraft:stick"}},
+  "result": {"item": "rickmod:mega_fence_gate", "count": 1}
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IMI",
+    "GPG",
+    "IRI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "G": {
+      "item": "minecraft:golden_apple"
+    },
+    "P": {
+      "item": "rickmod:portal_fluid_flask"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "rickmod:rick_synthetic_liver"
+  }
+}

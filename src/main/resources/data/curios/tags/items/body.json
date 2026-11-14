@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "rickmod:rick_force_field",
+    "rickmod:evil_morty_force_field",
+    "rickmod:rick_synthetic_liver",
+    "rickmod:prime_nano_regenerator"
+  ]
+}

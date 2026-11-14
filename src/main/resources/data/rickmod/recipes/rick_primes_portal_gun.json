@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EOE",
+    "CGC",
+    "EOE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:emerald_block"
+    },
+    "O": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "C": {
+      "item": "rickmod:portal_core"
+    },
+    "G": {
+      "item": "rickmod:ricks_portal_gun"
+    }
+  },
+  "result": {
+    "item": "rickmod:rick_primes_portal_gun"
+  }
+}

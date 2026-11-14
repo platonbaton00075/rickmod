@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GBG",
+    "CPC",
+    "GCG"
+  ],
+  "key": {
+    "G": {"item": "minecraft:gold_ingot"},
+    "B": {"item": "minecraft:polished_blackstone_button"},
+    "C": {"item": "minecraft:cyan_concrete"},
+    "P": {"item": "rickmod:portal_core"}
+  },
+  "result": {
+    "item": "rickmod:meeseeks_box",
+    "count": 1
+  }
+}

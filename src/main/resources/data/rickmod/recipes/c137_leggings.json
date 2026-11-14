@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["CCC", "W W", "C C"],
+  "key": {
+    "C": {"item": "rickmod:citadel_steel_block"},
+    "W": {"item": "minecraft:white_wool"}
+  },
+  "result": {
+    "item": "rickmod:c137_leggings"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "RER",
+    " I "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:tinted_glass"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "I": {
+      "item": "rickmod:citadel_steel_block"
+    }
+  },
+  "result": {
+    "item": "rickmod:rick_scanner_eye"
+  }
+}

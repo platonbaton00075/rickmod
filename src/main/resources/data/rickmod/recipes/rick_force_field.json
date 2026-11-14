@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI",
+    "CPC",
+    "IRI"
+  ],
+  "key": {
+    "I": {
+      "item": "rickmod:citadel_steel_block"
+    },
+    "C": {
+      "item": "rickmod:portal_crystal_block"
+    },
+    "P": {
+      "item": "rickmod:portal_core"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "rickmod:rick_force_field"
+  }
+}

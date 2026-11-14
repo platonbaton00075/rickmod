@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GDG",
+    "GUG",
+    "GDG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "U": {
+      "item": "rickmod:ricks_portal_gun"
+    }
+  },
+  "result": {
+    "item": "rickmod:evil_morty_golden_portal_gun"
+  }
+}

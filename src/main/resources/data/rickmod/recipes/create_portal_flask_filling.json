@@ -1,0 +1,10 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {"item": "minecraft:glass_bottle"},
+    {"fluid": "rickmod:liquid_portal_fluid", "amount": 250}
+  ],
+  "results": [
+    {"item": "rickmod:portal_fluid_flask"}
+  ]
+}

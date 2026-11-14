@@ -1,0 +1,13 @@
+{
+  "type": "rickmod:citadel_of_ricks",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:the_void",
+      "layers": [],
+      "structures": {
+        "structures": {}
+      }
+    }
+  }
+}
