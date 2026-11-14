@@ -8,60 +8,59 @@ import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.PacketDistributor;
 import net.minecraftforge.network.simple.SimpleChannel;
 
-import java.util.Optional;
-
 public class ModNetwork {
     private static final String PROTOCOL_VERSION = "1";
-    public static final SimpleChannel INSTANCE = NetworkRegistry.newSimpleChannel(
+    public static final SimpleChannel CHANNEL = NetworkRegistry.newSimpleChannel(
             new ResourceLocation(RickMod.MOD_ID, "main"),
             () -> PROTOCOL_VERSION,
             PROTOCOL_VERSION::equals,
             PROTOCOL_VERSION::equals
     );
+    public static final SimpleChannel INSTANCE = CHANNEL;
 
-    private static int id = 0;
+    private static int packetId = 0;
+
+    private static int id() {
+        return packetId++;
+    }
 
     public static void register() {
-        INSTANCE.registerMessage(id++, PacketSelectDimension.class,
-                PacketSelectDimension::encode,
-                PacketSelectDimension::decode,
-                PacketSelectDimension::handle,
-                Optional.of(NetworkDirection.PLAY_TO_SERVER));
+        CHANNEL.messageBuilder(PacketSelectDimension.class, id(), NetworkDirection.PLAY_TO_SERVER)
+                .decoder(PacketSelectDimension::decode)
+                .encoder(PacketSelectDimension::encode)
+                .consumerMainThread(PacketSelectDimension::handle)
+                .add();
 
-        INSTANCE.registerMessage(id++, PacketSelectDestination.class,
-                PacketSelectDestination::encode,
-                PacketSelectDestination::decode,
-                PacketSelectDestination::handle,
-                Optional.of(NetworkDirection.PLAY_TO_SERVER));
+        CHANNEL.messageBuilder(PacketSelectDestination.class, id(), NetworkDirection.PLAY_TO_SERVER)
+                .decoder(PacketSelectDestination::decode)
+                .encoder(PacketSelectDestination::encode)
+                .consumerMainThread(PacketSelectDestination::handle)
+                .add();
 
-        INSTANCE.registerMessage(id++, PacketDeleteWaypoint.class,
-                PacketDeleteWaypoint::encode,
-                PacketDeleteWaypoint::decode,
-                PacketDeleteWaypoint::handle,
-                Optional.of(NetworkDirection.PLAY_TO_SERVER));
+        CHANNEL.messageBuilder(PacketDeleteWaypoint.class, id(), NetworkDirection.PLAY_TO_SERVER)
+                .decoder(PacketDeleteWaypoint::decode)
+                .encoder(PacketDeleteWaypoint::encode)
+                .consumerMainThread(PacketDeleteWaypoint::handle)
+                .add();
 
-        INSTANCE.registerMessage(id++, UseImplantAbilityPacket.class,
-                UseImplantAbilityPacket::encode,
-                UseImplantAbilityPacket::decode,
-                UseImplantAbilityPacket::handle,
-                Optional.of(NetworkDirection.PLAY_TO_SERVER));
+        CHANNEL.messageBuilder(UseImplantAbilityPacket.class, id(), NetworkDirection.PLAY_TO_SERVER)
+                .decoder(UseImplantAbilityPacket::decode)
+                .encoder(UseImplantAbilityPacket::encode)
+                .consumerMainThread(UseImplantAbilityPacket::handle)
+                .add();
 
-        INSTANCE.registerMessage(id++, SyncPicklePacket.class,
-                SyncPicklePacket::encode,
-                SyncPicklePacket::decode,
-                SyncPicklePacket::handle,
-                Optional.of(NetworkDirection.PLAY_TO_CLIENT));
+        CHANNEL.messageBuilder(SyncPicklePacket.class, id(), NetworkDirection.PLAY_TO_CLIENT)
+                .decoder(SyncPicklePacket::decode)
+                .encoder(SyncPicklePacket::encode)
+                .consumerMainThread(SyncPicklePacket::handle)
+                .add();
     }
 
     public static <MSG> void sendToServer(MSG message) {
-        INSTANCE.sendToServer(message);
+        CHANNEL.sendToServer(message);
     }
 
     public static <MSG> void sendToPlayer(MSG message, ServerPlayer player) {
-        INSTANCE.send(PacketDistributor.PLAYER.with(() -> player), message);
-    }
-
-    public static <MSG> void sendToAll(MSG message) {
-        INSTANCE.send(PacketDistributor.ALL.noArg(), message);
+        CHANNEL.send(PacketDistributor.PLAYER.with(() -> player), message);
     }
 }
