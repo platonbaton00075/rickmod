@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "rickmod:block/mega_planks",
+    "top": "rickmod:block/mega_planks",
+    "side": "rickmod:block/mega_planks"
+  }
+}
