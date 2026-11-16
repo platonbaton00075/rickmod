@@ -1,6 +1,0 @@
-{
-  "variants": {
-    "half=lower": { "model": "rickmod:block/phoenix_pod_lower" },
-    "half=upper": { "model": "rickmod:block/phoenix_pod_upper" }
-  }
-}
