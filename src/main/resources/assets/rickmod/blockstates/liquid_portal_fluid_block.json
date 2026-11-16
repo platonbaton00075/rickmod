@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "rickmod:block/liquid_portal_fluid_block"
+    }
+  }
+}

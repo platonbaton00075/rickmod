@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "rickmod:block/mega_log"
+    },
+    "axis=z": {
+      "model": "rickmod:block/mega_log",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "rickmod:block/mega_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

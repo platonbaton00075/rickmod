@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rickmod:block/mega_slab"
+    },
+    "type=top": {
+      "model": "rickmod:block/mega_slab_top"
+    },
+    "type=double": {
+      "model": "rickmod:block/mega_planks"
+    }
+  }
+}
